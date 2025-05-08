@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gitops.git
+    repoURL: https://github.com/gekart/gitops.git
     targetRevision: main
     path: infra/argo-cd-ingress
   destination:
