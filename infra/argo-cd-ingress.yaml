@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/gitops.git
     targetRevision: main
-    path: argo-cd-ingress
+    path: infra/argo-cd-ingress
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd

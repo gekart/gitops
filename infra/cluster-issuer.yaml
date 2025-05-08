@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/gitops.git
     targetRevision: main
-    path: cluster-issuer
+    path: infra/cluster-issuer
   destination:
     server: https://kubernetes.default.svc
     namespace: cert-manager
